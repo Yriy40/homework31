@@ -1,0 +1,231 @@
+body {
+    color: var(--SLATE, #434455);
+    font-family: 'Roboto', sans-serif;
+    background: #FFFFFF;
+}
+ul { list-style: none;
+}
+a { text-decoration: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.container {
+    width: 100%;
+    max-width: 1166px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    outline: 2px solid red;
+}
+/*=================header===============*/
+.header-logo {
+    color: var(--IRIS, #4D5AE5);
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.header-logo-studio {
+    color: var(--NAVY-BLUE, #2E2F42);
+}
+
+.header-menu {
+}
+.header-menu-link {
+color: var(--NAVY-BLUE, #2E2F42);
+font-family: Roboto;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+.header-menu-link:hover {
+color: var(--OCEAN, #404BBF);
+}
+.header-menu-link:focus {
+color: var(--OCEAN, #404BBF);
+}
+/*========================================*/
+/*=================address================*/
+.contacts {
+font-style: normal
+}
+.contacts-link {
+color: var(--SLATE, #434455);
+font-size: 16px;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+.contacts-link:hover {
+color: var(--OCEAN, #404BBF);
+}
+.contacts-link:focus {
+    color: var(--OCEAN, #404BBF);
+}
+/*========================================*/
+/*=================hero================*/
+.hero {
+background: var(--NAVY-BLUE, #2E2F42);
+}
+.hero-title {
+    color: var(--WHITE, #FFF);
+        text-align: center;
+        font-family: Roboto;
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 1.07;
+        letter-spacing: 0.02em;
+}
+.hero-buy-btn {
+color: var(--WHITE, #FFFFFF);
+    background: var(--IRIS, #4D5AE5);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+.hero-buy-btn:hover {
+    background: var(--OCEAN, #404BBF);
+}
+.hero-buy-btn:focus {
+    background: var(--OCEAN, #404BBF);
+}
+/*=====================================*/
+/*=================plan================*/
+
+.subtitle {
+    color: var(--NAVY-BLUE, #2E2F42);
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+}
+
+.plan-text {
+    color: var(--SLATE, #434455);
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+/*=====================================*/
+/*=================team================*/
+.our-team {
+background: var(--CLOUD, #F4F4FD);
+}
+.our-team-item {
+background: var(--WHITE, #FFF);
+}
+.our-team-title {
+    color: var(--NAVY-BLUE, #2E2F42);
+        text-align: center;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+}
+
+.our-team-subtitle {
+    color: var(--NAVY-BLUE, #2E2F42);
+        text-align: center;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+}
+
+.our-team-text {
+    color: var(--SLATE, #434455);
+        text-align: center;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+/*=====================================*/
+/*==============portfolio==============*/
+
+.our-portfolio-title {
+    color: var(--NAVY-BLUE, #2E2F42);
+        text-align: center;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+}
+
+.our-portfolio-subtitle {
+    color: var(--NAVY-BLUE, #2E2F42);
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+}
+
+.our-portfolio-text {
+    color: var(--SLATE, #434455);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+/*=====================================*/
+/*================footer===============*/
+.footer {
+    background: var(--NAVY-BLUE, #2E2F42);
+}
+
+.footer-logo {
+color: var(--IRIS, #4D5AE5);
+font-family: "Raleway", sans-serif;
+font-weight: 700;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+
+.footer-logo-studio {
+    color: var(--CLOUD, #F4F4FD);
+}
+.footer-text {
+    color: var(--CLOUD, #F4F4FD);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
