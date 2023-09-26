@@ -42,7 +42,7 @@ img {
 }
 .container {
     width: 100%;
-    max-width: 1128px;
+    max-width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
@@ -55,7 +55,7 @@ border-bottom: 1px solid #e7e9fc;
 .header-container {
     display: flex;
     align-items: center;
-    width: 1158px;
+    
     
 }
 .header-navigation {
@@ -87,7 +87,6 @@ margin-right: 100px;
 }
 .header-menu-item {
 display: flex; 
-padding: 24px 0;
 }
 .header-menu-link {
 color: var(--NAVY-BLUE, #2E2F42);
@@ -138,6 +137,7 @@ color: var(--OCEAN, #404BBF);
 .hero {
 padding: 188px 0;
 width: 1440px;
+margin: 0 auto;
 background: var(--NAVY-BLUE, #2E2F42);
 }
 .hero-container {
@@ -191,8 +191,6 @@ padding-bottom: 120px;
     
 }
 .plan-list {
-padding-left: 156px;
-padding-right: 156px;
 display: flex;
 gap: 24px;
 }
@@ -220,9 +218,9 @@ gap: 24px;
 .our-team {
 padding-top: 120px;
 padding-bottom: 120px;
+background: var(--CLOUD, #F4F4FD);
 }
 .our-team-container {
-background: var(--CLOUD, #F4F4FD);
 
 }
 .best-team {
@@ -230,10 +228,7 @@ background: var(--CLOUD, #F4F4FD);
         padding-bottom: 32px;
         background: var(--WHITE, #FFF);
         box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-        border-top-left-radius: 0px;
-        border-top-right-radius: 0px;
-        border-top-right-radius: 4px;
-        border-bottom-left-radius: 4px;
+        
 }
 
 .our-team-title {
@@ -250,13 +245,15 @@ background: var(--CLOUD, #F4F4FD);
 .our-team-list {
     display: flex;
     gap: 24px;
-    padding-left: 156px;
-    padding-right: 156px;
 }
 
 .our-team-item {
     width: calc((100% - 24px * 3) / 4);
     background: var(--WHITE, #FFF);
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px;
 }
 
 .our-team-subtitle {
@@ -288,14 +285,12 @@ padding-bottom: 120px;
 .our-portfolio-list {
 display: flex;
 flex-wrap: wrap;
-gap: 24px 48px;
-padding-left: 156px;
-padding-right: 156px;
+gap: 48px 24px;
 border: 1px solid var(--CORNFLOWER, #E7E9FC)
 }
 .our-portfolio-item {
 width: calc((100% - 24px * 2) / 3);
-border: 1px solid var(--CORNFLOWER, #E7E9FC);
+
 background: var(--WHITE, #FFF);
 }
 .best-portfolio {
@@ -341,11 +336,8 @@ padding-bottom: 100px;
 }
 .footer-container {
 align-items: self-start;
-width: 1158px;
 margin: 0 auto;
-padding: 0 15px;
-padding-left: 156px;
-}
+
 .footer-logo {
 color: var(--IRIS, #4D5AE5);
 display: inline-block;
