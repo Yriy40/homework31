@@ -283,7 +283,6 @@ padding-bottom: 120px;
 display: flex;
 flex-wrap: wrap;
 gap: 48px 24px;
-border: 1px solid var(--CORNFLOWER, #E7E9FC)
 }
 .our-portfolio-item {
 width: calc((100% - 24px * 2) / 3);
@@ -337,7 +336,7 @@ margin: 0 auto;
 
 .footer-logo {
 color: var(--IRIS, #4D5AE5);
-display: inline-block;
+display: block;
 font-family: "Raleway", sans-serif;
 font-weight: 700;
 font-size: 18px;
