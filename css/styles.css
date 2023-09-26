@@ -146,7 +146,7 @@ align-items: center;
 }
 .hero-title {
     color: var(--WHITE, #FFF);
-    width: 496px;
+    max-width: 496px;
     text-align: center;
     font-family: Roboto;
     font-size: 56px;
@@ -179,9 +179,12 @@ color: var(--WHITE, #FFFFFF);
 }
 /*=====================================*/
 /*=================plan================*/
+.plan {
+padding-top: 120px;
+padding-bottom: 120px;
+}
 .plan-container {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    
     }
 .plan-title {
     
@@ -213,10 +216,13 @@ gap: 24px;
 }
 /*=====================================*/
 /*=================team================*/
-.our-team-container {
-background: var(--CLOUD, #F4F4FD);
+.our-team {
 padding-top: 120px;
 padding-bottom: 120px;
+}
+.our-team-container {
+background: var(--CLOUD, #F4F4FD);
+
 }
 .best-team {
         padding-top: 32px;
@@ -261,16 +267,19 @@ padding-bottom: 120px;
 
 .our-team-text {
     color: var(--SLATE, #434455);
-        text-align: center;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 /*=====================================*/
 /*==============portfolio==============*/
-.our-portfolio-container {
+.our-portfolio {
 padding-top: 120px;
 padding-bottom: 120px;
+}
+.our-portfolio-container {
+
 }
 .our-portfolio-list {
 display: flex;
