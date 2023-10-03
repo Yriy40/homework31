@@ -262,11 +262,9 @@ background: var(--CLOUD, #F4F4FD);
 
 }
 .best-team {
-        padding-top: 32px;
-        padding-bottom: 32px;
-        background: var(--WHITE, #FFF);
-        box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-        
+padding-top: 32px;
+padding-bottom: 32px;
+background: var(--WHITE, #FFF);
 }
 
 .our-team-title {
@@ -403,6 +401,7 @@ letter-spacing: 0.02em;
 .our-portfolio-item:hover
 .portfolio-cover-text{
 transform: translateY(0);
+box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .our-portfolio-text-wrap {
     position: relative;
@@ -461,11 +460,9 @@ margin-bottom: 16px;
 }
 .logo-foot {
 margin-right: 120px;
-align-items: baseline;
 }
 .media-soc-container {
 display: inline;
-align-items: baseline;
 width: 208px;
 height: 80px;
 margin-bottom: 34px;
