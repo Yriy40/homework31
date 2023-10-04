@@ -103,7 +103,7 @@ position: relative;
 transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .current {
-color: varvar(--OCEAN, #404BBF);
+color: var(--OCEAN, #404BBF);
 transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-menu-link:hover,
@@ -111,7 +111,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .header-menu-link:active {
 color: var(--OCEAN, #404BBF);
 }
-.current::after{
+.current::after {
 content: '';
 display: none;
 position: absolute;
