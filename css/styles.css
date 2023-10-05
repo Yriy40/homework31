@@ -113,7 +113,6 @@ color:#404BBF;
 }
 .current::after {
 content: '';
-
 position: absolute;
 left: 0;
 bottom: -1px;
@@ -466,10 +465,6 @@ margin-bottom: 16px;
 margin-right: 120px;
 }
 .media-soc-container {
-display: inline;
-width: 208px;
-height: 80px;
-margin-bottom: 34px;
 }
 
 .subtitle-soc-footer {
